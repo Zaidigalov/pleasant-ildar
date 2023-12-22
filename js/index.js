@@ -73,10 +73,10 @@ cardLink.forEach((link) => {
     return;
   }
   link.addEventListener("mouseenter", () => {
-    link.firstChild.nextSibling.src = "../images/merch-arrow-square_hover.svg";
+    link.firstChild.nextSibling.src = "images/merch-arrow-square_hover.svg";
   });
   link.addEventListener("mouseleave", () => {
-    link.firstChild.nextSibling.src = "../images/merch-arrow-square.svg";
+    link.firstChild.nextSibling.src = "images/merch-arrow-square.svg";
   });
 });
 
@@ -91,27 +91,27 @@ function changeFooterNetworkIcons() {
     document.querySelector(".footer__networks").innerHTML = `
       <div class="footer-link">
       <a href="https://www.youtube.com/@pleasantildar" target="_blank" 
-      ><img class="footer-link__icon" src="../images/icons-header/v.2/Youtube.svg" alt="Youtube"
+      ><img class="footer-link__icon" src="images/icons-header/v.2/Youtube.svg" alt="Youtube"
     /></a></div>
     <div class="footer-link">
     <a href="https://www.twitch.tv/ildarzhe" target="_blank" class="footer-link"
-    ><img class="footer-link__icon"src="../images/icons-header/v.2/Twitch.svg" alt="Twitch"
+    ><img class="footer-link__icon"src="images/icons-header/v.2/Twitch.svg" alt="Twitch"
   /></a></div>
     <div class="footer-link">
     <a href="https://www.t.me/unpleasent" target="_blank" class="footer-link">
-    <img class="footer-link__icon"src="../images/icons-header/v.2/Telegram.svg" alt="Telegram" />
+    <img class="footer-link__icon"src="images/icons-header/v.2/Telegram.svg" alt="Telegram" />
   </a></div>
     <div class="footer-link">
     <a href="https://www.instagram.com/masterildar" target="_blank" class="footer-link"
-    ><img class="footer-link__icon"src="../images/icons-header/v.2/Instagram.svg" alt="Instagram"
+    ><img class="footer-link__icon"src="images/icons-header/v.2/Instagram.svg" alt="Instagram"
   /></a></div>
     <div class="footer-link">
     <a href="https://www.twitter.com/master_ildar" target="_blank" class="footer-link"
-    ><img class="footer-link__icon"src="../images/icons-header/v.2/Twitter.svg" alt="Twitter"
+    ><img class="footer-link__icon"src="images/icons-header/v.2/Twitter.svg" alt="Twitter"
   /></a></div>
     <div class="footer-link">
     <a href="https://vk.com/pleasentildar" target="_blank" class="footer-link">
-    <img class="footer-link__icon"src="../images/icons-header/v.2/VK.svg" alt="VK" />
+    <img class="footer-link__icon"src="images/icons-header/v.2/VK.svg" alt="VK" />
   </a></div>`;
   }
 }

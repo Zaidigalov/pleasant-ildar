@@ -2047,17 +2047,12 @@ body {
     margin-bottom: 28px;
   }
 
-  .cards__container {
-    display: flex;
-    max-width: 100%;
-    overflow: hidden;
-    padding-left: clamp(20px, 9vw, 49px);
+  .first-card {
+    padding-left: clamp(20px, 10vw, 48px);
   }
 
-  @media screen and (max-width: 406px) {
-    .cards__container {
-      padding-left: clamp(20px, 7vw, 39px);
-    }
+  .last-card {
+    padding-right: clamp(0px, 5.5vw, 28px);
   }
 
   .merch__cards {

@@ -80,6 +80,10 @@ cardLink.forEach((link) => {
   });
 });
 
+let slides = Array.from(document.querySelectorAll(".swiper-slide"));
+slides[0].classList.add("first-slide");
+slides[slides.length - 1].classList.add("last-slide");
+
 let cards = Array.from(document.querySelectorAll(".cards__card"));
 cards[0].classList.add("first-card");
 cards[cards.length - 1].classList.add("last-card");

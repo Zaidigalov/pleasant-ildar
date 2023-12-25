@@ -1993,6 +1993,7 @@ body {
 @media screen and (max-width: 1000px) {
   .card__image__container {
     border: none;
+    margin-left: 0;
   }
 
   .card__image__container:hover {
@@ -2009,11 +2010,19 @@ body {
   }
 
   .first-card {
-    padding-left: clamp(20px, 3.9vw, 48px);
+    padding-left: 0px;
   }
 
   .last-card {
-    padding-right: clamp(20px, 3.9vw, 48px);
+    padding-right: 0px;
+  }
+
+  .first-slide {
+    margin-left: clamp(20px, 3.9vw, 48px);
+  }
+
+  .last-slide {
+    margin-right: clamp(20px, 3.9vw, 48px);
   }
 
   .merch__link {
@@ -2045,14 +2054,6 @@ body {
   .merch__subtitle {
     font-size: 14px;
     margin-bottom: 28px;
-  }
-
-  .first-card {
-    padding-left: clamp(20px, 10vw, 48px);
-  }
-
-  .last-card {
-    padding-right: clamp(0px, 5.5vw, 28px);
   }
 
   .merch__cards {

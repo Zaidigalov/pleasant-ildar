@@ -249,7 +249,7 @@ body {
 
 .hero__title {
   position: relative;
-  font-family: "counter-strike";
+  font-family: "counter-strike", Helvetica, Arial, sans-serif;;
   font-size: clamp(221px, 16vw, 306px);
   line-height: clamp(120px, 9vw, 165px);
   letter-spacing: clamp(-1px, 0.005vw, 5px);
